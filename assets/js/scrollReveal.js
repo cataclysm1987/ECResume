@@ -39,12 +39,12 @@ window.scrollReveal = (function (window) {
       after:  '0s',
       enter:  'bottom',
       move:   '24px',
-      over:   '0.66s',
+      over:   '0.45s',
       easing: 'ease-in-out',
 
   //  if 0, the element is considered in the viewport as soon as it enters
   //  if 1, the element is considered in the viewport when it's fully visible
-      viewportFactor: 0.33,
+      viewportFactor: 0.25,
 
   // if false, animations occur only once
   // if true, animations occur each time an element enters the viewport
